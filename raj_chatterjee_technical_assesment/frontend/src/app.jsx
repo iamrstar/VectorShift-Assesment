@@ -21,7 +21,7 @@ function App() {
       <Toaster />
       <PipelineStats />
     </div>
-  );
+  ); 
 }
 
 export default App;
