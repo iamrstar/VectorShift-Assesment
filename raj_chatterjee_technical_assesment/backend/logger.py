@@ -8,7 +8,7 @@ def log_to_markdown(request: PipelineRequest, response: PipelineResponse):
     # Format JSON with proper indentation
     request_json = json.dumps(json.loads(request.json()), indent=2)
     response_json = json.dumps(json.loads(response.json()), indent=2)
-    
+     
     log_entry = f"""
 ## Request at {timestamp}
 
