@@ -8,7 +8,7 @@ class Position(BaseModel):
 class Style(BaseModel):
     strokeWidth: int
     stroke: str
-
+ 
 class MarkerEnd(BaseModel):
     type: str
     width: int
